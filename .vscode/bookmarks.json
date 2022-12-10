@@ -1,0 +1,24 @@
+{
+	"files": [
+		{
+			"path": "index.html",
+			"bookmarks": [
+				{
+					"line": 11,
+					"column": 0,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "css/style.scss",
+			"bookmarks": [
+				{
+					"line": 91,
+					"column": 0,
+					"label": ""
+				}
+			]
+		}
+	]
+}

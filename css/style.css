@@ -2,7 +2,7 @@
 @font-face {
   font-family: "Geometria";
   src: url("../fonts/Geometria-Light.eot");
-  src: local("Geometria Light"), local("Geometria-Light"), url("../fonts/Geometria-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometria-Light.woff") format("woff"), url("../fonts/Geometria-Light.ttf") format("truetype");
+  src: local("0"), url("../fonts/Geometria-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometria-Light.woff") format("woff"), url("../fonts/Geometria-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -93,10 +93,10 @@ html {
 body {
   font-family: "Geometria", sans-serif;
   background: #fff;
-  color: #373a39;
+  color: #000;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.3;
 }
 
 .wrapper {
@@ -125,4 +125,123 @@ body {
   max-width: 1160px;
   margin: 0 auto;
   padding: 0px 10px;
+}
+
+.header {
+  background: url("../img/header-bg.jpg") center/cover no-repeat;
+  min-height: 100vh;
+  padding: 30px 0 70px;
+}
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 130px;
+}
+.header__title {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+  max-width: 586px;
+  margin-bottom: 47px;
+}
+
+.top-header__info {
+  -ms-flex-preferred-size: 366px;
+      flex-basis: 366px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top-header__info-text {
+  -ms-flex-preferred-size: 195px;
+      flex-basis: 195px;
+}
+.top-header__phone-text {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.top-header__phone-btn {
+  font-family: "Geometria";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  background-color: transparent;
+  padding: 17px 23px;
+  border: 1px solid #2a94e2;
+  border-radius: 5px;
+  min-width: 100%;
+  cursor: pointer;
+}
+
+.content-header {
+  padding-top: 12px;
+}
+.content-header__text {
+  font-size: 22px;
+  max-width: 540px;
+  margin-bottom: 49px;
+}
+.content-header__count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+}
+.content-header__count-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+.content-header__count-item span {
+  font-size: 80px;
+  font-weight: 300;
+}
+.content-header__appeal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  max-width: 464px;
+  margin-bottom: 43px;
+}
+.content-header__appeal span {
+  font-weight: 700;
+}
+.content-header__bnt {
+  display: block;
+  text-align: center;
+  max-width: 360px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #fff;
+  padding: 22px 30px;
+  background-color: #2A94E2;
+  border-radius: 5px;
 }
