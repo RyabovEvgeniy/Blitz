@@ -243,3 +243,160 @@ body {
 	&__img {
 	}
 }
+
+// preview
+.preview {
+	padding-top: 60px;
+
+	// .preview__container
+
+	&__container {
+	}
+
+	// .preview__title
+
+	&__title {
+		margin-bottom: 30px;
+	}
+
+	// .preview__text
+
+	&__text {
+		font-size: 22px;
+		line-height: 1.6;
+		margin-bottom: 42px;
+		text-align: center;
+	}
+
+	// .preview__inner
+
+	&__inner {
+		border: 3px solid #F6F6F6;
+		display: flex;
+		column-gap: 75px;
+		padding: 40px 40px 20px;
+	}
+
+	// .preview__content
+
+	&__content {
+	}
+	
+	// .preview__list
+	
+	&__list {
+	}
+}
+.title {
+	font-size: 45px;
+	font-weight: 800;
+	text-align: center;
+}
+.content-preview {
+	display: flex;
+	flex-direction: column;
+
+	// .content-preview__title
+
+	&__title {
+		font-size: 22px;
+		font-weight: 800;
+		line-height: 1.2;
+		margin-bottom: 30px;
+	}
+
+	// .content-preview__items
+
+	&__items {
+		display: flex;
+		column-gap: 30px;
+		padding-bottom: 26px;
+		margin-bottom: 30px;
+		border-bottom: 2px solid #F1F1F1;
+	}
+
+	// .content-preview__item
+
+	&__item {
+
+	}
+
+		// .content-preview__link
+
+		&__link {
+
+		}
+
+	// .content-preview__img
+
+	&__img {
+		margin-bottom: 25px;
+	}
+
+	// .content-preview__text
+
+	&__text {
+		font-weight: 700;
+		text-align: center;
+		opacity: 0.5;
+	}
+
+	// .content-preview__footer
+
+	&__footer {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	// .content-preview__footer-text
+
+	&__footer-text {
+	}
+
+	// .content-preview__footer-link
+
+	&__footer-link {
+		color: #2A94E2;
+		position: relative;
+		padding-right: 37px;
+		&::after {
+			content: ("");
+			position: absolute;
+			background-image: url(../img/preview-footer-link.svg);
+			width: 22px;
+			height: 16px;
+			top: 4px;
+			right: 0;
+		}
+	}
+}
+.preview-content {
+
+	// .preview-content__text
+
+	&__text {
+	}
+}
+.list-preview {
+
+	// .list-preview__item
+
+	&__item {
+		max-width: 282px;
+		padding-left: 64px;
+		position: relative;
+		&::before {
+			content: "";
+			position: absolute;
+			background-image: url(../img/list-preview-img.svg);
+			width: 40px;
+			height: 35px;
+			top: 5px;
+			left: 0;
+		}
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+}
+

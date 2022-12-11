@@ -245,3 +245,106 @@ body {
   background-color: #2A94E2;
   border-radius: 5px;
 }
+
+.preview {
+  padding-top: 60px;
+}
+.preview__title {
+  margin-bottom: 30px;
+}
+.preview__text {
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 42px;
+  text-align: center;
+}
+.preview__inner {
+  border: 3px solid #F6F6F6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 75px;
+     -moz-column-gap: 75px;
+          column-gap: 75px;
+  padding: 40px 40px 20px;
+}
+.title {
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.content-preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.content-preview__title {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.content-preview__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  padding-bottom: 26px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #F1F1F1;
+}
+.content-preview__img {
+  margin-bottom: 25px;
+}
+.content-preview__text {
+  font-weight: 700;
+  text-align: center;
+  opacity: 0.5;
+}
+.content-preview__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.content-preview__footer-link {
+  color: #2A94E2;
+  position: relative;
+  padding-right: 37px;
+}
+.content-preview__footer-link::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/preview-footer-link.svg);
+  width: 22px;
+  height: 16px;
+  top: 4px;
+  right: 0;
+}
+
+.list-preview__item {
+  max-width: 282px;
+  padding-left: 64px;
+  position: relative;
+}
+.list-preview__item::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/list-preview-img.svg);
+  width: 40px;
+  height: 35px;
+  top: 5px;
+  left: 0;
+}
+.list-preview__item:not(:last-child) {
+  margin-bottom: 30px;
+}

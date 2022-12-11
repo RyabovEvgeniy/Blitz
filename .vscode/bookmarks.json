@@ -4,7 +4,12 @@
 			"path": "index.html",
 			"bookmarks": [
 				{
-					"line": 11,
+					"line": 13,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 66,
 					"column": 0,
 					"label": ""
 				}
@@ -15,6 +20,11 @@
 			"bookmarks": [
 				{
 					"line": 91,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 246,
 					"column": 0,
 					"label": ""
 				}
