@@ -128,8 +128,16 @@ body {
 }
 
 .title {
-  font-size: 55px;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 35px;
   font-weight: 800;
+  line-height: 1.1;
   text-align: center;
 }
 
@@ -151,10 +159,6 @@ body {
   min-height: 130px;
 }
 .header__title {
-  font-size: 50px;
-  font-weight: 900;
-  line-height: 1.2;
-  text-transform: uppercase;
   max-width: 586px;
   margin-bottom: 47px;
 }
@@ -662,4 +666,62 @@ body {
   height: 8px;
   top: 50%;
   right: 44%;
+}
+
+.estate {
+  background-color: #F6F6F6;
+  padding: 65px 0;
+}
+.estate__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.estate__content {
+  width: 50%;
+}
+.estate__title {
+  margin-bottom: 30px;
+  padding-top: 36px;
+  text-align: left;
+}
+.estate__text {
+  margin-bottom: 20px;
+}
+.estate__link {
+  display: block;
+  text-align: center;
+  max-width: 270px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #fff;
+  padding: 17px 22px;
+  background-color: rgb(42, 148, 226);
+  border-radius: 5px;
+}
+.estate__slider {
+  width: 50%;
+  min-width: 0;
+}
+
+.slider-big {
+  margin-bottom: 10px;
+}
+
+.slider-thumb .slick-slide.slick-active {
+  cursor: pointer;
+}
+.slider-thumb .slick-slide.slick-active:not(:last-child) {
+  margin-right: 3px;
+}
+.slider-thumb .slick-slide.slick-active img:hover {
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+      -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
 }
