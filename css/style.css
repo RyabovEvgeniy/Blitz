@@ -814,3 +814,37 @@ body {
   line-height: 1.6;
   border-bottom: 1px solid #000;
 }
+
+.management {
+  padding: 60px 0 0;
+  background-color: #EEF3FA;
+}
+.management__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.management__title {
+  text-align: left;
+  margin-bottom: 40px;
+}
+.management__name {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+.management__text {
+  margin-bottom: 35px;
+}
+.management__link {
+  display: block;
+  text-align: center;
+  max-width: 270px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #fff;
+  padding: 17px 22px;
+  background-color: rgb(42, 148, 226);
+  border-radius: 5px;
+}
