@@ -646,7 +646,7 @@ body {
           align-items: center;
   min-width: 100%;
   min-height: 60px;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   padding: 19px 0 14px;
   cursor: pointer;
   position: relative;
@@ -669,7 +669,7 @@ body {
 }
 
 .estate {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   padding: 65px 0;
 }
 .estate__inner {
@@ -724,4 +724,93 @@ body {
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
       -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
           transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.trend {
+  padding: 60px 0 50px;
+  text-align: center;
+}
+.trend__title {
+  margin-bottom: 30px;
+}
+.trend__cards {
+  margin-bottom: 60px;
+}
+.trend__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+}
+.trend__link {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #2A94E2;
+  max-width: 360px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.cards-trend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+.cards-trend__item {
+  padding: 35px 50px 15px;
+  border: 1px solid #2a94e2;
+  border-radius: 10px;
+  min-width: 555px;
+  position: relative;
+}
+.cards-trend__item::before {
+  content: "";
+  background-image: url(../img/trend-item-decor.svg);
+  width: 16px;
+  height: 268px;
+  position: absolute;
+  top: 11px;
+  left: 0;
+}
+.cards-trend__item-title {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  max-width: 450px;
+  text-align: left;
+}
+.cards-trend__item-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.cards-trend__item-content {
+  margin-top: 20px;
+}
+.content-item {
+  text-align: left;
+  margin-right: 90px;
+}
+.content-item__position {
+  font-size: 12px;
+  line-height: 1.6;
+  opacity: 0.5;
+}
+.content-item__name {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.content-item__phone {
+  font-size: 25px;
+  line-height: 1.6;
+}
+.content-item__mail {
+  line-height: 1.6;
+  border-bottom: 1px solid #000;
 }
