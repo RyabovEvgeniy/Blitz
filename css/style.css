@@ -848,3 +848,69 @@ body {
   background-color: rgb(42, 148, 226);
   border-radius: 5px;
 }
+.footer {
+  color: #fff;
+  background-color: #535860;
+  padding: 40px 0;
+}
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__address {
+  max-width: 322px;
+}
+.footer__address p {
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.footer__address p span {
+  margin-left: 43px;
+}
+.footer__address p:nth-child(2) {
+  font-size: 16px;
+}
+.footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__info-text {
+  -ms-flex-preferred-size: 195px;
+      flex-basis: 195px;
+}
+.footer__phone-text {
+  font-size: 30px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.footer__phone-mail {
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.footer__phone-btn {
+  font-family: "Geometria";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  background-color: #fff;
+  padding: 17px 23px;
+  border-radius: 5px;
+  min-width: 100%;
+  cursor: pointer;
+}
